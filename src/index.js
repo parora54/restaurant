@@ -12,10 +12,10 @@ const homeButton = document.querySelector('button#Home')
 const aboutButton = document.querySelector('button#About')
 const contactButton = document.querySelector('button#Contact-Us')
 
-// // default homepage logic (upon webapp boot)
-// container.appendChild(titleLoad())
-// container.appendChild(blurbLoad())
-// container.appendChild(dishesLoad())
+// default homepage logic (upon webapp boot)
+container.appendChild(titleLoad())
+container.appendChild(blurbLoad())
+container.appendChild(dishesLoad())
 
 // Menu Button
 menuButton.addEventListener('click', () => {
